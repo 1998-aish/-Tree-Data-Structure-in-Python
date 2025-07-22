@@ -1,0 +1,18 @@
+#### Data structures exercise: General Tree
+
+1. Below is the management hierarchy of a company.
+
+
+Here is how your main function should will look like,
+```
+if __name__ == '__main__':
+    root_node = build_management_tree()
+    root_node.print_tree("name") # prints only name hierarchy
+    root_node.print_tree("designation") # prints only designation hierarchy
+    root_node.print_tree("both") # prints both (name and designation) hierarchy
+```
+
+2. Build below location tree using **TreeNode** class
+
+Now modify print_tree method to take tree level as input. And that should print tree only upto that level as shown below,
+
